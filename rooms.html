@@ -1,0 +1,425 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>벙커도감</title>
+    <style media="screen">
+      img {
+        width: 150px;
+        display: block;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+
+  <body>
+
+
+
+  <script type="text/javascript">
+
+    var japan = function(){
+       var out = jp[Math.floor(Math.random()*jp.length)];
+       console.log(out);
+       alert (
+         "땡그랑 땡그랑...\n"+
+         out +"이(가) 나왔습니다!!"
+       );
+    };
+
+    var jp = [
+      "오래된 음료수(♡)",
+      '음료수(♥)',
+      '면도칼(♡, ^^)',
+      '로프',
+      "배터리",
+      '정리솔',
+      '당첨맥주(불굴의 의지)'
+    ];
+
+
+    var bx0 = function () {
+      if(Math.random()<0.4){
+        alert("두두두두..쾅! 폭발함");
+      }else {
+        alert("다이너마이트다");
+      };
+    };
+    var bx1 = function () {
+      if(Math.random()<0.6){
+        alert("두두두두..쾅! 폭발함");
+      }else {
+        alert("다이너마이트다");
+      };
+    };
+    var bx2 = function () {
+      if(Math.random()<0.8){
+        alert("두두두두..쾅! 폭발함");
+      }else {
+        alert("다이너마이트다");
+      };
+    };
+    var bx3 = function () {
+      if(Math.random()<0.9){
+        alert("두두두두..쾅! 폭발함");
+      }else {
+        alert("다이너마이트다");
+      };
+    };
+
+    var foood =function () {
+      if(Math.random()<0.4){
+        alert("썩은 식량(♡)이다.");
+      }else{
+        alert("식량(♥)을 찾아냈다. 후레이!!");
+      };
+    };
+
+    var gogo =function () {
+      var s = Math.random();
+      var m = "뭐가문제야" ;
+      if (s<0.23) {
+        m="암살용 단검(♡♡, 1회, ^^)";
+      } else if(0.23<s && s<0.46){
+        m="조립식 저격소총(♡, 3회, ^^)";
+      } else if (0.46<s && s<0.7) {
+        m="응급키트(♥♥♥, ^^)";
+      } else if (0.7<s && s<0.8) {
+        m="지상의 사진(불굴의 의지),로프3";
+      } else {
+        m="다이아,로프";
+      };
+      alert(m+"이 나왔다");
+    };
+
+    var radio = function() {
+      var s = Math.random();
+      console.log("되긴됨?");
+      if (s<0.09) {
+        alert("쉘터 7/8해방의 25주년 기념 대축제가 열립니다. 개막식은 7월 8일에 라이스인 광장에서 열리며...");
+      } else if(0.09<s && s<0.18){
+        alert("네 다음 사연 들어보겠습니다. 신서울 송파구에 사시는 김복동씨가 보내주셨는데요..");
+      } else if (0.18<s && s<0.27) {
+        alert("지난주 최고 화제의 인물이시죠,폐쇄되었던 미군기지84벙커에서 기적적으로 탈출하신 박복박씨 모셨습니다!(박수와 환호성 소리)");
+      } else if (0.27<s && s<0.3) {
+        alert("지직...크로놀 2034 ...크로놀 2034 ..뚝.");
+      } else if (0.3<s && s<0.39) {
+        alert("구로역 대전차용 지뢰 발견으로 주변 지역이 일시 폐쇠되면서 주변 ic에 강한 교통정체가 예상되고 있습니다...");
+      } else if (0.39<s && s<0.41) {
+        alert("인코딩 오류 안녕! 5분 필수문법 시간이 돌아왔어요~");
+      } else if (0.41<s && s<0.5) {
+        alert("앞뒤가똑같은 전화번호 1577~ 1577~ 앞뒤가 또옥같은 대리운전 1577! 대리운전 15~77.");
+      } else if (0.5<s && s<0.62) {
+        alert("탈출자 커뮤니티'벙커게임'이 오는 7월13일부터 사회 재적응 프로그램 18기를 시작한다는 소식입니다...");
+      } else if (0.62<s && s<0.7) {
+        alert("'민수씨 '유다이' 들어보셨어요?'\n'예? 유...다이요? 게임 이름인가?'\n'아이 참, 결혼예물전문 금속공방 유다이요~!'\n'아~정확도 높은 커팅으로 다이아의 질을 올려준다는 결혼예물전문 유다이~'....' ");
+      } else {
+        alert("지지직...아쉽게도 신호가 잡히지 않는다.");
+      };
+    };
+
+    var chae =function () {
+      var s = Math.random();
+      var m = "뭐가문제야" ;
+      if (s<0.4) {
+        m="석탄";
+      } else if(0.4<s && s<0.7){
+        m="은";
+      } else if (0.7<s && s<0.9) {
+        m="금";
+      } else {
+        m="다이아";
+      };
+      console.log(s);
+      alert(m+"이(가) 나왔다");
+    };
+
+    var chae2 =function () {
+      var s = Math.random();
+      var m = "뭐가문제야" ;
+      if (s<0.5) {
+        m = "은";
+      } else if(0.5<s && s<0.8){
+        m ="금";
+      } else {
+        m="다이아";
+      };
+      console.log(s);
+      alert(m+"이(가) 나왔다");
+    };
+
+    var dachae =function () {
+      var s = Math.random();
+      var m = "뭐가문제야" ;
+      if (s<0.66) {
+        m ="금";
+      } else {
+        m="다이아";
+      };
+      alert(m+"이(가) 나왔다");
+    };
+
+    var dilchae = function(){
+      if(Math.random()<0.5){
+        alert("아ㅗ! 폭발!");
+      }else{
+        alert("와! 다이아! 훌륭한 돈줄수단!");
+      };
+    };
+
+    var rlrlrl = function(){
+      var out = tlcp[Math.floor(Math.random()*tlcp.length)];
+      alert (
+        "뒤적뒤적...\n"+
+        out +"이(가) 나왔다"
+      );
+    };
+
+    var tlcp=[
+      '권총(♡, 2회, ^^)',
+      '불총(♡♡)',
+      '식량(♥)2',
+      '로프4',
+      '돈4'
+    ]
+
+    /*$("#폭져").click(function(){
+      /*document.getElementById('폭져').innerHTML=
+      "<img src="imgs/폭8.jpg">";
+      alert('악아가아가악!!!');
+    });
+
+    $('#goddamn').click(function(){
+      alert("dlrjsehlsi");
+    });*/
+
+
+  </script>
+
+    <pre>
+<img src="imgs/벙커놑으 표지001.png" style="width:300px;" >
+<details open>
+  <summary style="font-size:15px"><strong>Rooms[누르면 이동][접기/열기]</strong></summary>
+  <a href="#숙">숙소</a>
+  <a href="#자">자판기</a>
+  <a href="#식">식품저장고</a>
+  <a href="#폭">폭탄저장고</a>
+  <a href="#발">발전기</a>
+  <a href="#압">압축기</a>
+  <a href="#지">지하탐색기</a>
+  <a href="#폐">폐쇄된 광산</a>
+  <a href="#고">폐쇄된 고급광산</a>
+  <a href="#금">금고</a>
+  <a href="#라">라디오</a>
+  <a href="#시">시체</a>
+  <a href="#벙">벙커노트</a>
+  <a href="#탈">탈출 포드</a>
+  <a style="color:powderblue" href="http://lg-sl.net/product/scilab/sciencestorylist/HHSC/readSciencestoryList.mvc?sciencestoryListId=HHSC2011080002">산인나빳어
+  </a>
+
+</details>
+<details open>
+  <summary>열람 방법[접기/열기]</summary>
+  ♥: 체력+
+  ♡: 체력-
+  ^^: 다른 캐릭터에게 사용 가능
+  '죽기 전에 꼭!' 목록에서 방으로 이동할 수 있어요
+  행동 중 뽑기가 필요할 때는 여기서!
+  각 방 설명마다 적절한 버튼이 준비되어 있어요
+</details>
+<a name="숙">
+<img src="imgs/숙소.jpg" >
+<h3>숙소</h3>
+*문이 안잠긴다...
+
+-자기(1턴): (♥♥,걸음수 초기화) 눈을 감고 있어야 해서, 아이템을 뺏길 수 있다
+-숙소청소(정리솔): 숙소를 청소하면서 굴러다니는 아이템을 찾아보자(줍줍 1회)
+
+<a name="자">
+<img src="imgs/자판기.jpg">
+<h3>자판기</h3>
+*돈없으면 꺼져;;
+
+-랜덤 뽑기(돈) : 먼지가 많아 안이 보이지 않는다. 물건 중 랜덤히 1개 획득
+-제대로 뽑기(돈, 정리솔): 자판기를 청소했다. 물건 중 원하는 것 1개 획득
+-자판기 부수기(2턴,♡): 자판기를 부숴 안에있는 아이템이나 돈을 얻는다.
+자판기를 부수는 중에는 움직이거나 체력을 회복할수 없다. (단 '죽었을때도 사용가능'한 것은 예외.)
+2턴이 차기 전에 죽으면 취소된다. 부서진 자판기에서는 물건을 뽑을 수 없다.
+<input type="button" value="작동!!!" onclick="
+  japan();
+">
+      <details>
+        <summary>판매 목록</summary>
+오래된 음료수(♡)
+음료수(♥)
+면도칼(♡, ^^)
+로프
+배터리
+정리솔
+당첨맥주(불굴의 의지)
+      </details>
+
+<a name="식">
+<img src="imgs/식량저장고.jpg">
+<h3>식품 저장고 </h3>
+*맛있는건 털린지 오래. 한 식품저장고는 4회까지 사용가능.
+
+-식량 확보(1턴): 썩은 식량(♡), 식량(♥) 중 하나가 나온다
+<input type="button" value="식량 확보" onclick="
+  foood();
+">
+
+<a name="폭" >
+
+<div id="폭져">
+  <img src="imgs/폭탄저장고.png">
+</div>
+
+<h3>폭탄 저장고</h3>
+*한 폭탄 저장고에는 총 6개의 다이너마이트가 있다.
+
+-다이너마이트(1턴)
+-상자 열기 : 폭발(♡), 다이너마이트 중 1. 턴을 소모하지 않지만, 한턴 안에 여러번 열면 점점 위험해진다.
+ <input type="button" value="상자열기0회(파괴자조력자 전용)"onclick="bx0();">
+ <input type="button" value="상자열기1회" onclick="bx1();">
+ <input type="button" value="상자열기2회" onclick="bx2();">
+ <input type="button" value="상자열기3회" onclick="bx3();">
+
+<a name="발">
+<img src="imgs/발전기.jpg">
+<h3>발전기</h3>
+*손으로 돌려주세요
+
+-배터리 뽑기(돈) : 배터리 1 획득
+-전기 끊기(다이너마이트, 각 발전기당 1회) : 4턴동안 자신만 움직인다. 다른 사람들은 볼 수 없다.
+
+  <a name="압">
+<img src="imgs/압축기.png">
+<h3>압축기</h3>
+<!--*압축기는 벙커 탐험가들의 반딧불이, 전구알, 배터리이며 하트이고 마법 지팡이다.
+아무도 모르는 비밀 레시피와 슈퍼 아이템을 찾아 모험을 떠나 보자.-->
+-압축: (배터리1개 넣으면 2회 충전)
+<details>
+  <summary>압축 레시피</summary>
+  석탄3 => 다이아
+  음료수2 => 다음 단계 음료수
+  다이너마이트5 => 슈퍼폭탄
+  로프2 => 어디로든 문
+  정리솔2 => 최첨단 탐사용 솔
+  면도칼2,석탄1 => 암살용 단검
+  은1,정리솔1,로프1,석탄1 => 불총
+  금1, 다이너마이트1 => 33폭탄
+  다이아1, 다이너마이트2 => 55폭탄
+  썩은 음식1, 로프1, 면도칼1, 음료수1 => 응급상자
+  권총1,다이너마이트1 => 조립식저격소총
+  이외 캐릭터 전용 압축법.
+</details>
+<!--<input type="button" value="@압 to the 축@" onclick="
+    abchuk();
+">-->
+<a name="지">
+<img src="imgs/지하탐색기.png">
+<a href="serching.html" h3>지하 탐색기[눌러!]</h3>
+*지하 탐색의 정석
+
+x위치,y위치 중 하나를 정할 수 있다.
+(최초 2회 사용 이후 배터리 1개당 2회 충전.)
+
+<a href="serching.html"><input type="button" value="탐사하러 가기...@@"></a>
+<a name="폐">
+<img src="imgs/폐광.jpg">
+<h3>폐쇄된 광산</h3>
+*벙커에 광산을 만드는 신개념 설계
+*6회 채굴하면 무너짐
+
+-채광(1턴) : 석탄, 은, 금, 다이아몬드 중 1 획득
+-뻥(다이너마이트): 금, 다이아 중 1 획득
+<input type="button"  value="채광" onclick=" chae();">
+<input type="button" value="다이너마이트 사용" onclick="dachae();">
+
+<a name="고">
+<img src="imgs/고급폐광.png" >
+<h3>폐쇄된 고급광산</h3>
+*놓칠 수 없는 광맥을 발견했다
+*4회 채굴하면 무너짐.
+
+-채광(1턴) : 은, 금, 다이아 중 1 획득
+-드릴작동(배터리) : 폭8(♡), 다이아 중 1 획득
+-뻥(다이너마이트): 다이아 획득
+<input type="button"  value="채광" onclick=" chae2();">
+<input type="button"  value="드릴작동" onclick="dilchae();">
+
+<a name="환">
+<img src="imgs/환전소.png" >
+<h3>환전소</h3>
+*광물이 필요할지 돈이 필요할지 모른다. 환전소는 멀다. 환전은 신중히.
+
+-무인 환전: 은(1), 금(2), 다이아(3)를 돈으로 교환
+<a name="금">
+<img src="imgs/금고.png">
+<h3>금고</h3>
+*금고털이범이 되었습니다.
+-금고털기(2턴,다이너마이트1개당 1턴 줄일 수 있다.): 다음 중 1 획득
+<details>
+  <summary>남의 귀중품 엿보기</summary>
+  암살용 단검(♡♡♡, 1회, ^^)
+  조립식 저격소총(♡, 3회, ^^)
+  응급키트(♥♥♥, ^^)
+  지상의 사진(불굴의 의지),로프3
+  다이아, 로프1
+</details>
+<input type="button" value="가져가기" onclick="
+ gogo();
+">
+<a name="라">
+<img src="imgs/고라.jpg">
+<h3>고장난 라디오</h3>
+*옛날 방사능 측정기처럼 생겼지만 복고풍일 뿐이다.
+*배터리 1개당 2회 작동
+-바깥뉴스 듣기(1턴) : 불굴의 투지(70% 확률)
+-노래 듣기(1턴) : (♥)
+<input type="button" value="지상 소식 대신 전해드립니다" onclick="
+  radio();
+">
+<a name="시">
+<img src="imgs/시체.png">
+<h3>시체</h3>
+*말이 없다. 죽은 듯 하다.
+-시체 조사(♡,1턴) : 산 사람은 살아야죠.
+<details>
+  <summary>소지품 중 1 획득</summary>
+  권총(♡, 2회, ^^)
+  불총(♡♡)
+  식량(♥)2
+  로프4
+  돈4
+</details>
+<input type="button" value="시체뒤지기" onclick="
+rlrlrl();
+">
+<a name="벙">
+<img src="imgs/벙커노트.jpg">
+<h3>벙커노트</h3>
+*최하층, 벙커 설계자의 방에 있는 설계노트.
+이걸 보지 않으면 문 여는 법이나 슈퍼폭탄 설치하는 법을 알 수 없다.
+
+-<a href="serching.html">중요 정보 얻기[눌러!]</a> 한 칸에 원하는 방을 배정.(탈출포드 제외)(1턴)
+-비상금의 위치 : 돈5 (1턴)
+
+
+<a name="탈">
+<h3>탈출포드</h3>
+*벙커 생존팀의 알파이자 오메가
+
+-지상을 향해 : 열쇠 획득 (1턴,배터리)
+  </pre>
+  </body>
+
+  </html>
