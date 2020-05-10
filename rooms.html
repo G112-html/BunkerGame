@@ -189,6 +189,73 @@
       '로프4',
       '돈4'
     ]
+    
+       var jub = function() {
+
+     var doldolpan = Math.random();
+     var tem = "뭐시가 나올까";
+
+     if (doldolpan < 0.05) {
+     tem = "석탄";
+   }else if(0.05<doldolpan && doldolpan<0.09){
+     tem = "은";
+   }else if(0.09<doldolpan && doldolpan<0.13){
+     tem = "금";
+   }else if(0.13<doldolpan && doldolpan<0.15){
+     tem = "다이아";
+   }else if(0.15<doldolpan && doldolpan<0.25){
+     tem = "돈";
+   }else if(0.25<doldolpan && doldolpan<0.31){
+     tem = "밧데리";
+   }else if(0.31<doldolpan && doldolpan<0.36){
+     tem = "음식";
+   }else if(0.36<doldolpan && doldolpan<0.4){
+     tem = "썩은음식";
+   }else if(0.4<doldolpan && doldolpan<0.43){
+     tem = "오래된음료수";
+   }else if(0.43<doldolpan && doldolpan<0.47){
+     tem = "음료수";
+   }else if(0.47<doldolpan && doldolpan<0.5){
+     tem = "고급음료수";
+   }else if(0.5<doldolpan && doldolpan<0.57){
+     tem = "정리솔";
+   }else if(0.57<doldolpan && doldolpan<0.59){
+     tem = "최첨단 탐사용 솔";
+   }else if(0.59<doldolpan && doldolpan<0.65){
+     tem = "면도칼";
+   }else if(0.65<doldolpan && doldolpan<0.67){
+     tem = "암살용단검";
+   }else if(0.67<doldolpan && doldolpan<0.7){
+     tem = "권총";
+   }else if(0.7<doldolpan && doldolpan<0.72){
+     tem = "불총";
+   }else if(0.72<doldolpan && doldolpan<0.73){
+     tem = "조립식 저격소총";
+   }else if(0.73<doldolpan && doldolpan<0.74){
+     tem = "구급상자";
+   }else if(0.74<doldolpan && doldolpan<0.79){
+     tem = "다이너마이트";
+   }else if(0.79<doldolpan && doldolpan<0.82){
+     tem = "33폭탄";
+   }else if(0.82<doldolpan && doldolpan<0.83){
+     tem = "55폭탄";
+   }else if(0.83<doldolpan && doldolpan<0.91){
+     tem = "로프";
+   }else if(0.91<doldolpan && doldolpan<0.93){
+     tem = "어디로든 로프";
+   }else if(0.93<doldolpan && doldolpan<0.95){
+     tem = "죽";
+   }else if(0.95<doldolpan && doldolpan<0.97){
+     tem = "데운 통조림";
+   }else if(0.97<doldolpan && doldolpan<0.99){
+     tem = "고기구이";
+   }else{
+     tem = "골-든 통조림";
+   };
+   console.log(tem);
+   console.log(doldolpan);
+     alert(tem +"을/를 주웠다");
+   };
 
     /*$("#폭져").click(function(){
       /*document.getElementById('폭져').innerHTML=
@@ -230,9 +297,15 @@
   ♥: 체력+
   ♡: 체력-
   ^^: 다른 캐릭터에게 사용 가능
-  '죽기 전에 꼭!' 목록에서 방으로 이동할 수 있어요
-  행동 중 뽑기가 필요할 때는 여기서!
-  각 방 설명마다 적절한 버튼이 준비되어 있어요
+ rooms에서 목록을 눌러 각 방으로 이동가능
+ 뽑기 버튼이 있습니다. 양심적으로 눌러요
+  
+  
+  <h3><선구자></h3>
+  새로 개방된 방을 최초 사용하는 사람은
+  방에 떨어져있던 아이템을 랜덤히 얻는다.
+  <input type="button" value="줍줍" onclick="jub();">
+  
 </details>
 <a name="숙">
 <img src="imgs/숙소.jpg" >
